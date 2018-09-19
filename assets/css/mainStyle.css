@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Apr-2018, 3:52:20 PM
+    Author     : Roberto Di Biase
+*/
+
+
+/*
+General styles
+*/
+.bodyStyle{
+    background-color: #8bb393;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.containerStyle{
+    background-color: #fff;
+    padding: 0;
+    
+}
+
+
+/*
+Footer Style
+*/
+#myFooter{
+    background-color: #000;
+}
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 45px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+#myFooter .instagram:hover {
+    color: #bc2a8d;
+}
+#myFooter .snapchat:hover {
+    color: #fffc00;
+}
+
+#myFooter li{
+    list-style: none;
+}
+
+.header{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+}
+
+
+#map {
+        height: 400px;
+        width: 100%;
+}
+
+
+
+
+
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  /*For wrapping text in thumbnail*/
+  word-wrap: break-word;
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+  margin-top: 6px;
+}
+
+
+/*
+END FOOTER Style
+*/
+/*
+Nav bar styles
+*/
+
+#video{
+    height: 600px
+}
+
+
+@media (min-width: 320px){
+   #video{
+    height: 350px
+} 
+}
+
+@media (min-width: 800px){
+   #video{
+    height: 600px
+} 
+}

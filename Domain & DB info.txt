@@ -1,0 +1,8 @@
+
+Domain:
+http://alexjamieson.ga/phpproject/index.php
+
+DB Info:
+Hostname/IP : 159.203.101.106
+Username : alexJamieson
+Password : rectumspectrum
